@@ -55,4 +55,11 @@ public class Computer {
     {
        return this.storage;
     }
+
+    public void informationComputerPrint(){
+        System.out.println("I'm a computer and I have "+ram+" GB of " +
+                "ram and I have "+storage+" GB of storage "+" and I have an "+processorBrand+" processor and"+
+                " I'm "+computerBrand+ " computer brand"
+        );
+    }
 }
